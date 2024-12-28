@@ -3,85 +3,55 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="fediverse:creator" content="@MorganSkilly@mastodon.gamedev.place">
+
+        <!-- TITLE AND DESCRIPTION -->
+        <meta name="description" content="Technical Artist - Virtual Production and Motion Capture" />
+        <meta name="author" content="Morgan Skillicorn"/>
         <title>Blog Post by @MorganSkilly</title>
-        <!-- Favicon-->
+        
         <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        
         <link href="../css/styles.css" rel="stylesheet" />
         <link href="../css/bootstrap.min.css" rel="stylesheet" />
         <link rel="stylesheet" href="../css/hover.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="https://kit.fontawesome.com/66afee0429.js" crossorigin="anonymous"></script>
     </head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-T45FLM3SND"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-T45FLM3SND');
-</script>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand hvr-grow" href="https://morganskilly.com">Morgan Skillicorn</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link hvr-grow" href="https://morganskilly.com/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link hvr-grow" href="https://morganskilly.com/VFX">VFX</a></li>
-                        <li class="nav-item"><a class="nav-link hvr-grow" href="https://portfolio.morgan.games/">Game Dev</a></li>
-                        <li class="nav-item"><a class="nav-link hvr-grow" href="https://shotbyskilly.com">Photography</a></li>
-                        <li class="nav-item"><a class="nav-link hvr-grow active" aria-current="page" href="https://morganskilly.com/blog">Blog</a></li>
-                        <li class="nav-item"><a class="nav-link hvr-grow" href="https://morganskilly.com/contact">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link hvr-grow" href="https://morganskilly.com/CV">CV/Resume</a></li>
-                    </ul>
-                
-                    <!-- Add this to give some padding between the navbar items and social icons -->
-                    <div class="d-flex align-items-center ms-lg-4">
-                        <a href="https://www.linkedin.com/in/morgan-s-180534110/" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                            <i class="fab fa-linkedin fa-1x"></i>
-                        </a>
-                        <a href="https://www.artstation.com/morganskilly" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                            <i class="fab fa-artstation fa-1x"></i>
-                        </a>
-                        <a href="https://twitter.com/morganskilly" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                            <i class="fab fa-twitter fa-1x"></i>
-                        </a>
-                        <a href="https://www.instagram.com/shotbyskilly/" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                            <i class="fab fa-instagram fa-1x"></i>
-                        </a>
-                        <a href="https://www.youtube.com/@Morgan-FX" class="text-white social-icon hvr-grow" target="_blank">
-                            <i class="fab fa-youtube fa-1x"></i>
-                        </a>
-                    </div>
-                </div>
-                <!-- Social Media Icons -->                                  
-            </div>
-        </nav>
-        <!-- Page content-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T45FLM3SND"></script>
+
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-T45FLM3SND');
+    </script>
+
+    <body>       
+        <div id="navbar-container"></div>
+
         <div class="container mt-5">
             <div class="row">
                 <div class="">
-                    <!-- Post content-->
                     <article>
-                        <!-- Post header-->
                         <header class="mb-4">
-                            <!-- Post title-->
+                            <!-- TITLE -->
                             <h1 class="fw-bolder mb-1">Music Video Production Using an LED Virtual Production Studio</h1>
-                            <!-- Post meta content-->
+                            <!-- DATE -->
                             <div class="text-muted fst-italic mb-2">Posted on September 29, 2024 by Morgan Skillicorn</div>
-                            <!-- Post categories-->
+                            <!-- LINKS -->
                             <a class="badge bg-secondary text-decoration-none link-light" href="https://www.youtube.com/watch?v=YSEE2eVngzc&ab_channel=MorganSkillicorn">Music Video</a>
                             <a class="badge bg-secondary text-decoration-none link-light" href="https://www.youtube.com/watch?v=Sqb0Pf1P1bw&ab_channel=MorganSkillicorn">Behind The Scenes</a>
                         </header>
-                        <!-- Post content-->
+                        
                         <section class="mb-5">
+                            <!-- INTRO -->
                             <p class="fs-5 mb-4">During week two of my Technical Art and VFX masters course at Abertay University I worked with a small group to create a music video for A Good Song Never Dies by Saint Motel. The project aimed to serve as an icebreaker helping us to work together well and learn the basics of virtual production using Abertay's ViPRE Studio.</p>
-                            
+                            <!-- SOCIALS -->
+                            <div id="socials-container"></div><br><br>
+
                             <figure class="mb-4 w-75">
                                 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
                                     <iframe 
@@ -120,51 +90,17 @@
                             
                             
                         </section>
-                    </article>
-                    
-                </div>
-                
+                    </article>                    
+                </div>                
             </div>
         </div>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container">
-                <!-- Social Media Icons -->
-            <div class="text-center my-3">
-                <a href="https://www.linkedin.com/in/morgan-s-180534110/" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                </a>
-                <a href="https://www.artstation.com/morganskilly" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                    <i class="fab fa-artstation fa-2x"></i>
-                </a>
-                <a href="https://twitter.com/morganskilly" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                    <i class="fab fa-twitter fa-2x"></i>
-                </a>
-                <a href="https://www.instagram.com/shotbyskilly/" class="text-white me-3 social-icon hvr-grow" target="_blank">
-                    <i class="fab fa-instagram fa-2x"></i>
-                </a>
-                <a href="https://www.youtube.com/@Morgan-FX" class="text-white social-icon hvr-grow" target="_blank">
-                    <i class="fab fa-youtube fa-2x"></i>
-                </a>
-            </div>
-
-            <!-- Email Line -->
-            <p class="m-0 text-center text-white">
-                <a href="mailto:hello@morgan.games" class="text-white">hello@morgan.games</a>
-            </p>
-                <br>
-
-                <p class="m-0 text-center text-white">Unless otherwise stated, the content on this site is the property of Morgan Skillicorn.</span></p>
-                <p class="m-0 text-center text-white">Copyright &copy; morganskilly.com <span id="year"></span></p>
-            </div>
-            
-            <script>
-                document.getElementById('year').textContent = new Date().getFullYear();
-            </script>
+              
+        <footer class="py-5 bg-dark">            
+            <div id="footer-container"></div>
         </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+
+        <script src="loadHTML.js"></script>        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>        
         <script src="../js/scripts.js"></script>
     </body>
 </html>
