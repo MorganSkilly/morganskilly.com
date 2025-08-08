@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Technical Artist - Virtual Production and Motion Capture" />
+        <meta name="author" content="Morgan Skillicorn" />
+        <meta name="fediverse:creator" content="@MorganSkilly@mastodon.gamedev.place" />
+
+        <title>Morgan Skillicorn Portfolio</title>
+
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="css/hover.css" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+        <script src="https://kit.fontawesome.com/66afee0429.js" crossorigin="anonymous"></script>
+    </head>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-T45FLM3SND"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-T45FLM3SND");
+    </script>
+
+    <body>
+        <!-- Responsive navbar-->
+        <div id="navbar-container"></div>
+
+        <!-- Page header with logo and tagline-->
+        <header class="py-5 bg-light border-bottom mb-4">
+            <div class="container">
+                <div class="text-center my-5">
+                    <h1 class="fw-bolder">Morgan's Portfolio</h1>
+                </div>
+            </div>
+        </header>
+
+        <!-- Page content-->
+        <div class="container">
+            <div class="row">
+
+                <!-- Blog entries -->
+                <div class="col-lg-8">
+                    <!-- Featured blog post -->
+                    <div class="card mb-4">
+                        <a href="https://realtimeroads.com">
+                            <img class="card-img-top" src="assets/portfolio/carshoot.jpg" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h2 class="card-title">Realtime Roads - Procedural, Real-Time Driving Environments for Virtual Production Shoots</h2>
+                            <p class="card-text">
+                                My capstone MSc project, Realtime Roads explores the use of real-time game engines to improve vehicle process on a virtual production set. With custom C++ tooling in Unreal Engine, film makers have more agency when shooting in virtual production through flexible real-time tools than when using traditional 2D vehicle plates.
+                            </p>
+                            <a class="btn btn-dark" href="https://realtimeroads.com">Read more →</a>
+                        </div>
+                    </div>
+
+                    <!-- Nested row for non-featured blog posts -->
+                    <div class="row">
+                        <!-- Left Column -->
+                        <div class="col-lg-6">
+
+                            <div class="card mb-4">
+                                <a href="portfolio/timonshoot.html">
+                                    <img class="card-img-top" src="assets/portfolio/timonshoot.jpg" alt="..." />
+                                </a>
+                                <div class="card-body">
+                                    <h2 class="card-title h4">Severence Inspired Virtual Production Shoot</h2>
+                                    <p class="card-text">I acted as the on-set virtual production technical artist on another MSc project. This project utilised several various interesting techniques including frame remapping to improve post-production workflows.</p>
+                                    <a class="btn btn-dark" href="portfolio/timonshoot.html">Read more →</a>
+                                </div>
+                            </div>      
+                            
+                            <div class="card mb-4">
+                                <a href="portfolio/helicopter.html">
+                                    <img class="card-img-top" src="assets/portfolio/FinalCompSequence__(2)0012_Ultra.png" alt="..." />
+                                </a>
+                                <div class="card-body">
+                                    <h2 class="card-title h4">Unreal Engine Helicopter VFX Sequence</h2>
+                                    <p class="card-text">By blending a mixture of traditional VFX methods and real-time game engines, I created a short VFX sequence with live action drone footage.</p>
+                                    <a class="btn btn-dark" href="portfolio/helicopter.html">Read more →</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Right Column -->
+                        <div class="col-lg-6">
+
+                            <div class="card mb-4">
+                                <a href="portfolio/majapoleshoot.html">
+                                    <img class="card-img-top" src="assets/portfolio/majapoleshoot.jpg" alt="..." />
+                                </a>
+                                <div class="card-body">
+                                    <h2 class="card-title h4">Pole Dancing Motion Capture and Virtual Production Shoot</h2>
+                                    <p class="card-text">
+                                        I assisted on another MSc project that focussed on performance capture for a pole dancing choreography. The project involved Vicon motion capture of a performer as well as several days of virtual production shooting where I ran the volume as an on-set technical artist.
+                                    </p>
+                                    <a class="btn btn-dark" href="portfolio/majapoleshoot.html">Read more →</a>
+                                </div>
+                            </div>
+
+                            <div class="card mb-4">
+                                <a href="portfolio/motioncapture.html">
+                                    <img class="card-img-top" src="assets/portfolio/Shot1_0535_Ultra.png" alt="..." />
+                                </a>
+                                <div class="card-body">
+                                    <h2 class="card-title h4">Motion Capture Projects</h2>
+                                    <p class="card-text">
+                                        Throughout my time at Abertay I have carried out a number of motion capture shoots for my own projects as well as that of external university partners.
+                                    </p>
+                                    <a class="btn btn-dark" href="portfolio/motioncapture.html">Read more →</a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- Side widgets (moved to the left) -->
+                <div class="col-lg-4">
+                    <!-- Side widget content -->
+                    <div class="card mb-4">
+                        <a href="portfolio/ndisplaymeshtool.html">
+                            <img class="card-img-top" src="assets/portfolio/meshtool.PNG" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h2 class="card-title h4">LED Wall Mesh Generator for Unreal nDisplay</h2>
+                            <p class="card-text">A plugin for Unreal Engine to procedurally generate nDisplay projection meshes based LED panel specifications.</p>
+                            <a class="btn btn-dark" href="portfolio/ndisplaymeshtool.html">Read more →</a>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <a href="portfolio/moirecnn.html">
+                            <img class="card-img-top" src="assets/portfolio/moire.png" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h2 class="card-title h4">Detecting Spatial Aliasing (Moiré) Using a Convolutional Neural Network</h2>
+                            <p class="card-text">Using PyTorch, I trained a CNN to binary classify 4k images containing spatial aliasing patterns.</p>
+                            <a class="btn btn-dark" href="portfolio/moirecnn.html">Read more →</a>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <a href="portfolio/musicvideo.html">
+                            <img class="card-img-top" src="assets/portfolio/musicvideothumb.jpg" alt="..." />
+                        </a>
+                        <div class="card-body">
+                            <h2 class="card-title h4">Virtual Production Music Video</h2>
+                            <p class="card-text">I directed and edited a music video that utilised Unreal Engine and an LED wall inspired by Saint Motel's, A Good Song Never Dies.</p>
+                            <a class="btn btn-dark" href="portfolio/musicvideo.html">Read more →</a>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div id="socials-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div id="footer-container"></div>
+        </footer>
+
+        <script src="loadHTML.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    </body>
+</html>
