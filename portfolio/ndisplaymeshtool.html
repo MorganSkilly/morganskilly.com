@@ -43,23 +43,46 @@
                         
                         <section class="mb-5">
                             <!-- INTRO -->
-                            <p class="fs-5 mb-4">A plugin for Unreal Engine to procedurally generate nDisplay projection meshes based on LED panel specifications. This tool streamlines the process of creating accurate projection surfaces for virtual production workflows using LED walls.</p>
-                            <p class="fs-5 mb-4">The plugin takes LED panel dimensions, resolutions, and configuration parameters to automatically generate the precise mesh geometry required for nDisplay systems. This eliminates the manual mesh creation process and ensures pixel-perfect alignment between the virtual content and physical LED panels.</p>
-
-                            <figure class="mt-4"><img class="img-fluid rounded w-75" src="../assets/portfolio/meshtool.PNG" alt="LED Wall Mesh Generator Tool"></figure>
-
-                            <div class="mt-5">
-                                <h3 class="mb-3">Key Features</h3>
-                                <ul class="fs-6">
-                                    <li>Procedural mesh generation based on LED panel specifications</li>
-                                    <li>Support for various LED panel configurations</li>
-                                    <li>Automatic UV mapping for proper texture projection</li>
-                                    <li>Integration with Unreal Engine's nDisplay system</li>
-                                    <li>Real-time preview and adjustment capabilities</li>
-                                </ul>
-                            </div>
-
-                            <p class="fs-5 mb-4">Technical documentation and code examples to be added...</p>                          
+                            <p class="fs-5 mb-4">Manually modelling LED volumes for nDisplay is annoying! This tool automates the process, saving time and effort. Simply create an asset containing the specs of your LED panels and then specify the height and width of the panel array. A procedural mesh is then generated which can be used to create a static mesh for nDisplay projection in seconds. The tool even supports curved walls with varying angular offsets and the ability to split the volume into multiple canvases. I created this system entirely in C++ using the Unreal procedural mesh module and combined it with my LED panel material to simulate moiré aliasing for previsualisation. In fact the tool was so useful it was used when setting up the CoSTAR Realtime Lab in Dundee to produce the nDisplay configuration.</p>
+                            
+                            <div class="d-flex flex-wrap">
+                                <div class="w-50 pe-2">
+                                    <figure class="mt-3">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/mesh1.gif" alt="Mesh Generation Process 1">
+                                        <figcaption class="text-center mt-2 text-muted small">Easily adjust the height and width of the LED volume.</figcaption>
+                                    </figure>
+                                    <figure class="mt-3">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/mesh3.gif" alt="Mesh Generation Process 3">
+                                        <figcaption class="text-center mt-2 text-muted small">Split the configuration across multiple meshes for multi-node setups.</figcaption>
+                                    </figure>                                    
+                                    <figure class="mt-3">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/Screenshot 2025-08-09 170005.png" alt="Mesh Tool Screenshot 3">
+                                        <figcaption class="text-center mt-2 text-muted small">Add LED panel specifications to reusable data assets for reusability.</figcaption>
+                                    </figure>
+                                    <figure class="mt-3">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/Screenshot 2025-08-09 165919.png" alt="Mesh Tool Screenshot 1">
+                                        <figcaption class="text-center mt-2 text-muted small">Everything is parameterised for easy configuration that can be saved and replicated.</figcaption>
+                                    </figure>
+                                </div>
+                                <div class="w-50 ps-2">
+                                    <figure class="mt-5">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/mesh2.gif" alt="Mesh Generation Process 2">
+                                        <figcaption class="text-center mt-2 text-muted small">Dynamically adjust the angular offset between LED panels to create curved LED volumes.</figcaption>
+                                    </figure>
+                                    <figure class="mt-3">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/Screenshot 2025-08-09 170052.png" alt="Mesh Tool Screenshot 4">
+                                        <figcaption class="text-center mt-2 text-muted small">Create static meshes and use them for nDisplay projections.</figcaption>
+                                    </figure>
+                                    <figure class="mt-3">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/Screenshot 2025-08-09 165945.png" alt="Mesh Tool Screenshot 2">
+                                        <figcaption class="text-center mt-2 text-muted small">Add LED panel specifications to reusable data assets for reusability.</figcaption>
+                                    </figure>
+                                    <figure class="mt-3">
+                                        <img class="img-fluid rounded w-100" src="portfoliocontent/Screenshot 2025-08-09 170132.png" alt="Mesh Tool Screenshot 5">
+                                        <figcaption class="text-center mt-2 text-muted small">Generate static mesh geometry dynamically for nDisplay projection or export it as an FBX to use in other software.</figcaption>
+                                    </figure>
+                                </div>
+                            </div>       
                             
                         </section>
                     </article>                    

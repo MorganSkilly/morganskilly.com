@@ -43,12 +43,42 @@
                         
                         <section class="mb-5">
                             <!-- INTRO -->
-                            <p class="fs-5 mb-4">By blending a mixture of traditional VFX methods and real-time game engines, I created a short VFX sequence with live action drone footage. This project demonstrates the integration of drone cinematography with Unreal Engine's real-time rendering capabilities to create dynamic aerial sequences.</p>
-                            <p class="fs-5 mb-4">The workflow involved capturing drone footage, camera tracking, and compositing with CG elements rendered in real-time within Unreal Engine. This hybrid approach allowed for flexible iteration and creative control throughout the post-production process.</p>
+                            <p class="fs-5 mb-4">During the first semester of my masters degree at Abertay Univeristy I created a VFX sequence using Unreal Engine 5. I wanted to utilise the power of Unreal for film making and decided to blend drone footage with CG elements. Although the final composition was rendered using path tracer I utilised the power of Unreal for real-time compositing for the previs of the final shots.</p>
+                            <!-- SOCIALS -->
+                            <!-- <br><div id="socials-container"></div><br><br> -->
 
-                            <figure class="mt-4"><img class="img-fluid rounded w-75" src="../assets/portfolio/FinalCompSequence__(2)0012_Ultra.png" alt="Helicopter VFX Sequence"></figure>
+                            <figure class="mb-4 w-75">
+                                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                    <iframe 
+                                        class="rounded" 
+                                        src="https://www.youtube-nocookie.com/embed/iTaAPz146Jc?si=aTlV0Xq24JZoLEsb" 
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </figure>
 
-                            <p class="fs-5 mb-4">More details and footage to be added...</p>                          
+                            <p class="fs-5 mb-4">The project served as a great introduction to film making in Unreal as I pushed myself to use a veriety of techniques and technologies to a high standard. First and foremost, I needed a good sequence of drone footage to act as a backplate for my final composition. To shoot this footage I headed over the bridge to Tayport where I could safely fly outside of the Dundee Airport flight restriction. You can read more about the shoot in a <a href="../blog/vrscouting.html">previous blog post</a> including the use of Google Earth VR to previs shots. Once I had captured footage for my sequence I tracked the footage using After Effects and Cinema 4D allowing me to repeat the same camera movements in Unreal Engine creating a realistic blend of CG elements and live action footage.</p>
+                            <figure class="mt-4"><img class="img-fluid rounded w-50" src="../blog/blogcontent/tracked.png" alt="image of tracking using after effects" /></figure> 
+                            <p class="fs-5 mb-4">Creating realistic digital doubles of the actors was a key challenge I faced during the project and I used a miriad of technologies to acheive this. I utilised Abertay's Vicon motion capture stage to record full body motion of my actors and retargeted them to Unreal Engine 5 metahumans. The Metahumans played a pivitol role in the success of the project as they allowed me to create high fidelity doubles of my actors in a short space of time. To create good Metahumans I used Reality Scan to create photogrammetry scans of my actors which were then used to create the Metahuman face mesh. As well as full body mocap I used Live Link to stream facial animation data to Unreal. The Live Link animation worked really well as the actors were controlling a rig based on their own facial structure.</p>
+                            <!--<figure class="mt-4 d-flex">
+                                <img class="img-fluid rounded w-20" src="blogcontent/refmetahuman.png" alt="metahuman ref image" />
+                                <img class="img-fluid rounded w-20" src="blogcontent/metahumansolve.png" alt="metahuman solve" />
+                                <img class="img-fluid rounded w-20" src="blogcontent/metahuman.png" alt="metahuman" />
+                            </figure> -->
+                            <p class="fs-5 mb-4">I used an image plate in the Unreal Editor to composite my sequence in real time allowing me to carefully plan and put together shots. Once I had all the individual elements for the composition I was able to sequence the shots and animate CG elements such as the helicopter and Metahuman actors. A final touch that elevated the final sequence was the use of simulated anamorphic camera lenses. These lens files helped to add realistic lens distortion and helped mask the "gamey" feel of Unreal Engine.</p>
+
+                            <figure class="mb-4 w-75">
+                                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                    <iframe 
+                                        class="rounded" 
+                                        src="https://www.youtube-nocookie.com/embed/W-mHc3nRMbU?si=6dBJmwRm5h5LOkWr" 
+                                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </figure>                        
+                                                   
                             
                         </section>
                     </article>                    
