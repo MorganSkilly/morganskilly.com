@@ -17,6 +17,10 @@
     <br>
 
     <p class="m-0 text-center text-white">Unless otherwise stated, the content on this site is the property of Morgan Skillicorn.</span></p>
-    <p class="m-0 text-center text-white">Copyright &copy; morganskilly.com 2025</p>
+    <p class="m-0 text-center text-white">Copyright &copy; morganskilly.com <span id="current-year"></span></p>
 </div>
+
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 

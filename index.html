@@ -16,6 +16,43 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <script src="https://kit.fontawesome.com/66afee0429.js" crossorigin="anonymous"></script>
 
+        <style>
+            .home-unreal-badge {
+                display: block;
+                width: 210px;
+                margin: 1.25rem auto 0;
+                z-index: 3;
+            }
+
+            .home-unreal-badge img {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-radius: 0;
+                box-shadow: none;
+                border: none;
+                background: transparent;
+            }
+
+            .hiring-contact-link {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.6rem;
+                color: inherit;
+                text-decoration: none;
+            }
+
+            .hiring-contact-link i {
+                font-size: 1.45rem;
+                opacity: 0.9;
+            }
+
+            @media (max-width: 991.98px) {
+                .home-unreal-badge {
+                    width: 190px;
+                }
+            }
+        </style>
     </head>
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-T45FLM3SND"></script>
@@ -37,8 +74,6 @@
             <div class="container h-100 d-flex justify-content-center align-items-center"></div>
         </header>
 
-
-
         <a rel="me" href="https://mastodon.gamedev.place/@MorganSkilly" style="position: absolute; left: -9999px;">Mastodon</a>
 
         <!-- Content section-->
@@ -47,19 +82,24 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
                         <h2>Hi, I'm Morgan!</h2>
-                        <p class="lead">I'm a real-time technical artist specialising in virtual production.</p>
-                        <p class="mb-0">I’m actively looking for roles in real-time virtual production.
-I have hands-on experience across the full VP pipeline, including running motion capture shoots for external partners and working directly with tools like Vicon, Mo-Sys StarTracker, Brompton processors, and nDisplay systems.
-My MSc project, Realtime Roads, pushes Unreal Engine to its limits using custom C++ tooling to generate fully procedural, real-time driving environments designed to offer a more flexible alternative to traditional 2D driving plates in LED volumes.
-I’ve worked in a variety of game engines and developed a strong understanding of both the hardware and software sides of VP. I have built tools using C++, C#, Python, and Blueprints, and I’ve also built procedural systems using Houdini Engine integrated with Unreal.</p>
+                        <p class="lead">I’m a real-time technical artist and virtual production specialist with hands-on experience across Unreal Engine, nDisplay, motion capture, and in-camera VFX workflows.</p>
+                        <p class="mb-0">I am currently a Teaching &amp; Research Fellow in Game Engines &amp; In-Camera Visual Effects at Abertay University, where I lead the upcoming Introduction to Virtual Production module and contribute to the CoSTAR Realtime Lab project. My work spans real-time game engine research, pipeline optimisation for nDisplay, and on-set virtual production and motion capture delivery for academic and commercial projects. After completing my MSc in Technical Art &amp; VFX with distinction, I’ve continued building tools and procedural environments that improve the on-set experience, from vehicle shooting to live motion capture pipelines. I’m particularly interested in roles where I can combine technical problem-solving, creative production knowledge, and engine development to push virtual production workflows forward.</p>
                     </div>
                     <div class="col-lg-10">
                         <br><br>
-                        <h2>Hiring? Let's Talk!</h2>
+                        <h2>
+                            <a class="hiring-contact-link" href="contact.html" aria-label="Contact Morgan Skillicorn">
+                                <span>Hiring? Let's Talk!</span>
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </h2>
                         <p class="lead">I'm currently looking for a position as an on-set virtual production / perfomance capture technical artist.</p>
+                        <a class="home-unreal-badge" href="https://credential.unrealengine.com/5d30dcd7-b696-4325-bf6f-8a2411dd3c69#acc.ouQxnZrG" target="_blank" rel="noopener noreferrer" aria-label="View Unreal Engine Authorized Instructor credential">
+                            <img src="assets/unrealbadge.png" alt="Unreal Engine Authorized Instructor badge" />
+                        </a>
                     </div>
                     <div class="col-lg-10">
-                        <br><br>
+                        <!-- <br><br>
                         <h2>Latest Showreel:</h2>
                         <iframe
                             src="https://www.youtube-nocookie.com/embed/JRugpQrVFkY"
@@ -68,7 +108,7 @@ I’ve worked in a variety of game engines and developed a strong understanding 
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
-                        </iframe>
+                        </iframe> -->
 
                     </div>
                 </div>

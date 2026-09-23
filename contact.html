@@ -16,6 +16,51 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <script src="https://kit.fontawesome.com/66afee0429.js" crossorigin="anonymous"></script>
 
+        <style>
+            .contact-layout {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+            }
+
+            .profile-image-wrap {
+                display: flex;
+                justify-content: center;
+                flex-shrink: 0;
+            }
+
+            .profile-image-wrap img {
+                width: 220px;
+                height: 220px;
+                object-fit: cover;
+                border-radius: 50%;
+                display: block;
+                border: 3px solid rgba(255, 255, 255, 0.3);
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+            }
+
+            .contact-copy {
+                flex: 1;
+                min-width: 0;
+            }
+
+            .contact-copy p {
+                text-align: left;
+            }
+
+            @media (max-width: 767.98px) {
+                .contact-layout {
+                    flex-direction: column;
+                    text-align: center;
+                }
+
+                .contact-copy p {
+                    text-align: center;
+                }
+            }
+        </style>
+
     </head>
 
     <!-- Google tag (gtag.js) -->
@@ -42,18 +87,24 @@
         <section class="py-5">
             <div class="container my-5">
                 <div class="row justify-content-center">
-                    <div class="col-lg-10">                       
-                        
-                        <p class="m-0 text-center lead">
-                            Feel free to reach out to me on LinkedIn! I'm actively looking for a position as a real-time, on-set technical artist.
-                        </p>
+                    <div class="col-lg-10">
+                        <div class="contact-layout">
+                            <div class="profile-image-wrap">
+                                <img src="assets/profileicon.jpg" alt="Morgan Skillicorn profile picture" />
+                            </div>
+                            <div class="contact-copy">
+                                <p class="m-0 lead">
+                                    Please reach out to me on LinkedIn. I'm actively looking for a new opportunities!
+                                </p>
+                                <p class="m-0 lead">
+                                    Email me: <a href="mailto:hello@morgan.games">hello@morgan.games</a>
+                                </p>
+                                <br>
+                                <div id="socials-container"></div>
+                                <br>
+                            </div>
+                        </div>
                         <br>
-                        <div id="socials-container"></div>
-                        <br>
-                        <p class="m-0 text-center lead">
-                            or email me: <a href="mailto:hello@morgan.games">hello@morgan.games</a>
-                        </p>
-                        <br>                        
                     </div>                 
                 </div>            
         </section>
