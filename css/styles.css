@@ -104,6 +104,53 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.footer-container {
+  position: relative;
+}
+
+.footer-unreal-badge {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 78px;
+  color: var(--bs-white);
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.footer-unreal-badge-mark {
+  display: block;
+  height: 60px;
+  overflow: hidden;
+}
+
+.footer-unreal-badge img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer-unreal-badge-label {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.45rem;
+  line-height: 1.1;
+}
+
+@media (max-width: 575.98px) {
+  .footer-unreal-badge {
+    position: static;
+    display: block;
+    width: 68px;
+    margin: 1.25rem auto 0;
+  }
+
+  .footer-unreal-badge-mark {
+    height: 52px;
+  }
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
